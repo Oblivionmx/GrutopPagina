@@ -4,59 +4,7 @@
     font-family: Arial, sans-serif;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 15px 20px;
-}
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-title {
-    margin: 0;
-    font-size: 24px;
-}
-
-.menu {
-    position: relative;
-}
-
-.menu-item {
-    padding: 10px 15px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.menu-item:hover {
-    background-color: #555;
-    color: #fff;
-}
-
-.dropdown {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #333;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    z-index: 1;
-}
-
-.dropdown a {
-    display: block;
-    padding: 10px 15px;
-    color: white;
-    text-decoration: none;
-    transition: background-color 0.3s;
-}
-
-.dropdown a:hover {
-    background-color: #555;
-}
 
 /* Footer styling */
 footer {
